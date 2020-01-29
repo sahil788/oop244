@@ -1,0 +1,92 @@
+/************************
+*name:sahil lapsiwala
+id:132584160
+date:7/26/2017
+file:reflect.txt
+email: snlapsiwala@myseneca.ca
+***************************/
+1) The different types of polymorphism are:
+
+i) coercion
+  eg.
+       #include <iostream>
+       void display(int a) 
+    {
+       std::cout << "One argument (" << a << ')'; 
+    }
+
+ int main( ) 
+   {
+
+     display(20);
+     std::cout << std::endl;
+     display(15.6); 
+     std::cout << std::endl;
+     display('V'); 
+     std::cout << std::endl;
+   }
+ii) overloading
+  eg. 
+     #include <iostream>
+     void display() 
+     {
+       std::cout << "No arguments";
+     }
+
+ void display(int a) 
+    {
+        std::cout << "One argument (" << a << ')'; 
+    }
+
+ int main( ) 
+    {
+
+     display();
+     std::cout << std::endl;
+     display(10);
+     std::cout << std::endl;
+    }
+iii) inclusion
+eg. 
+   #include <iostream>
+   #include "Course.h"
+   using std::cout;
+   using std::endl;
+
+ int main( ) 
+    {
+     Course abc123("Intro to OOP244")
+     HyCourse abc124("Intro to OO*");
+     cout << abc123.assessments() << endl;
+     cout << abc123.mode() << endl;
+     cout << abc124.assessments() << endl; 
+     cout << abc124.mode() << endl;
+ }
+iv) parametric
+eg. 
+    template <typename T> T identity(T t) 
+    { 
+        doStuff(); 
+        return t; 
+    }
+
+2) template fall under parametric polymorphism.
+
+3) If a template function is never called then we nedd to create logic for every function which has the same logic
+   code logic duplication would not take place and would give compile time error.
+
+4)The most intersting thing was that i learned  about classes and to use pointer extensively.
+
+5)yes it helped me a lot
+
+6)yes  the course was delivered in a good pace
+
+7)no there's nothing like that.
+
+8) no the course was perfectly fine
+
+9)b
+
+10)yes i enjoyed doing the workshops as it helped me understand the concepts even better.
+
+11)b

@@ -1,0 +1,43 @@
+/************************
+*name:sahil lapsiwala
+ id:132584160
+ date:23/6/2017
+ file:reflect
+***************************/
+
+
+1.because health cannot be negative
+
+2.no HERO class does not need to know the existence of thec class SuperHero.but superhero knows about the hero class.
+
+3.AncientBattle
+
+4. both are true.
+*******************************************
+quiz 6
+*************************************
+3) std::cerr
+4) std::ifstream f("temp.txt");
+7) std::ofstream f("student.txt");
+ * does not print anything prints in the created file
+
+**********************************
+quiz 7
+********************************
+1)virtual void display(std::ostream&)const;
+  virtual char* go()const;
+  char* go()const;
+  void display(std::ostream&)const;
+
+2)two
+
+3)virtual
+
+4)Dynamic binding
+  static binding
+
+5)true
+
+6)false
+
+7)polymorphism

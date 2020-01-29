@@ -1,0 +1,28 @@
+/************************
+*name:sahil lapsiwala
+id:132584160
+date:24/7/2017
+file:reflect.txt
+email:snlapsiwala@myseneca.ca
+***************************/
+1)The difference is that a concrete class can be instantiated because
+  it provides  the implementation for all of its methods.butAn abstract class cannot 
+  be instantiated because at least one method has not been implemented.
+
+2) Abstract base class contains or inherits at least one pure virtual member function.  
+   The class definition contains the declaration of the pure virtual function 
+   Because the class provides no implementation for its pure virtual function,
+   the compiler cannot instantiate the class.  
+   Any attempt to create an instance of an abstract base class generates a compiler 
+   error. 
+
+
+3) i have learned about defining pure virtual function and using abstact and base class
+   and behavior of virtual functions
+
+********************************
+quiz 8
+********************************
+2)A derived class that implements all the missing functionality is called a concrete class.
+
+3)abstract

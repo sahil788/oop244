@@ -1,0 +1,64 @@
+**********************************
+name: sahil lapsiwala
+id : 132584160
+workshop :02
+email : snlapsiwala@myseneca.ca
+**********************************
+
+1) If the memmory is not deallocated the memory stays in the ram of pc and that is memory leak.
+
+2) we need to allocate new dynamic memory when we increase the size of an existing array
+   of dyanamically allocated memory because as we add new item to the array the firstly allocated memory becomes 
+   insufficient to hold the new item so we need to allocate new dynamic memory.
+
+3) no there is no memoryleak as it is static memory which is allocated to the application in run time.
+
+4) the compiler knows which function it is by the number of parameters that we have passed since there is only stucture passed 
+   in one function and structure and size passed in oher so compiler sees them as different and knows which one to call.
+
+5) in this work shop i learned to use dynamic memory with pointers and how to allocate and deallocate them.
+
+
+
+**************************************
+quix 2 reflection
+**************************************
+3)correct the following program to protect data from changes by the main() function and ensure that the number of students is non negative.
+ans):
+  #include <iostream>
+  class oop244
+ {
+   int no students;
+   public
+      void display const 
+    {
+      if (noStudents>=0)
+{
+  std::cout << noStudents;
+}
+}
+else{
+  std::cout<< no data:
+}
+};
+
+int main() 
+{
+oop244 sectionAB;
+sectionAB.noStudents =79;
+
+display();
+}
+
+6)
+ Add the statements that displays the number e to 4 decimal places on standard output
+
+ans:)
+     #include <iostream
+     int main()
+{
+double e = 2.71828182845;
+cout.setf(ios::fixed);
+cout.precision(4);
+std::cout <<e << std::endl;
+}

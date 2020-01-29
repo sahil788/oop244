@@ -1,0 +1,21 @@
+Script started on Thu 13 Jul 2017 11:58:02 AM EDT
+snlapsiwala@matrix:~/oop244/MS3> 
+snlapsiwala@matrix:~/oop244/MS3> ms3
+Linear: one two 
+As is: 
+one
+two
+
+Enter the following: 
+three<ENTER>
+four<ENTER>
+Ctrl-D
+
+one two 
+one
+two
+
+snlapsiwala@matrix:~/oop244/MS3> exit
+exit
+
+Script done on Thu 13 Jul 2017 11:58:15 AM EDT

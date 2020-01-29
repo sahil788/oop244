@@ -1,0 +1,10 @@
+
+In line number 187 of your output:
+The output should be:
+
+But your output is: 
+snlapsiwala@matrix:~/oop244/MS6> exit
+^
+|
+Professor's character ASCII code: hex(d), dec(13)
+un-matched character ASCII code: hex(73), dec(115)

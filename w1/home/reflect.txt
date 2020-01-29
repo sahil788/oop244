@@ -1,0 +1,16 @@
+************************************
+Name: Sahil Lapsiwala
+ID:132584160
+email:snlapsiwala@myseneca.ca
+***********************************
+
+1) A namespace is a scope for entities that it encloses.its purpose is to avoid same identifier naming conflicts
+   for different variables.
+2)We need header files when we need to access objects in an external library that we do not want to recompile
+  or avoid interfering with.
+3) We should never compile header files as we will include the header files in .cpp file and  while compiling it will
+   automatically compile them if we compile header files then header files will compile twice.
+4) we should never include .cpp files in another files as when compiling if we include them it will recompile and create a duplicate file.
+5)The benefit of putting source code in modules is as a well designed module is highly cohesive and losely coupled and its easy
+  to make changes to a module instead of whole source code when you are working with millions of lines.
+6)from this workshop i learned how to crate modules and use them effectively and to safeguards the header files.

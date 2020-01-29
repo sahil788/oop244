@@ -1,0 +1,17 @@
+**********************************
+name: sahil lapsiwala
+id : 132584160
+workshop :04
+email : snlapsiwala@myseneca.ca
+**********************************
+
+1)if copy assignment operator would not chek for self assignment then the deallocation statement would release 
+the memory holding the resource data and we would lose access to the source resource resulting in our logic failing.
+
+2)If we do not declare a copy constructor, the compiler inserts code that implements a shallow copy. 
+  If we do not declare a copy assignment operator, the compiler inserts code that implements a shallow assignment. 
+
+3)i avoided duplicating of code by using the function in other functions so the same logic does not appear anywhere.
+
+4)i have learned about overloading ,copy constructor and copy assingment operator and where and how to use them.
+

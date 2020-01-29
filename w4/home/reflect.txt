@@ -1,0 +1,43 @@
+
+**********************************
+name: sahil lapsiwala
+id : 132584160
+workshop :04
+email : snlapsiwala@myseneca.ca
+**********************************
+
+
+Ans1: By putting the members in safe empty state we assure that the members don't have any garbage value inside them.
+
+Ans2: We could've used just one constructor with 5 parameters and make three different cases so that we may 
+      skip most of the code.
+
+Ans3: By minimizing code duplication the compiler performs statements that requires compilation 
+      just once and not everytime when checking conditions.it also executes faster.
+
+Ans4: Because we're passing a class through parameter and by doing that we're  allowing that 
+      object to access every public member of that class.
+
+Ans5: we can define max_size to something and use that where required when we 
+      need to chsnge size we just change the define statement of that.
+
+Ans6: After copying the array we should set the next character to null terminator i.e. '\0'.
+
+Ans7: i have learned  constructors,how to put elements in safe empty state,using the reference "this" for current object
+      and to pass class type objects.
+
+**************************************
+quix 4 reflection
+**************************************
+ans 2: 1
+ans 5 :
+class oop244
+{
+   int nostudents;
+   long* studentNo;
+public:
+    oop244();
+    oop244(const char name[],int);
+};
+
+i could not get the how to declare class with resource.

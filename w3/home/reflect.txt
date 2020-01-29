@@ -1,0 +1,29 @@
+**********************************
+name: sahil lapsiwala
+id : 132584160
+workshop :02
+email : snlapsiwala@myseneca.ca
+**********************************
+1)The size of each c- style character string that stores the account name is 40 and 41 for the objects that store the names
+  this is because of the space for the null character so there is no garbage valued displayed,and exceeding the limit of the array.
+
+2)from my code the examples of object oriented programming are using a class and accessing its objects and putting codes into 
+  different modules.
+
+3)this is allowed in c++ as the compiler identifies the identical named functions by the number of parameters passed in the function,
+  whereas in c compiler doesn't know this.
+
+4)we ensure that the balance displays upto 2 decimal places by using the cout.precision(2) and setf::iosfixed() to format the output.
+
+5) we need to check if the sin is valid and the years entered are less than max number of years
+
+6) i have learned to access the data from the class and orivatisation of members and using in built libraries to format the output
+
+**************************************
+quix 3 reflection
+**************************************
+6 (3) Complete the code to return an unmodifiable reference to the current object.
+           const oop244& OOP244::foo() const {
+	// . . . member function logic
+	 return *this;
+}      

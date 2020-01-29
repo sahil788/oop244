@@ -1,0 +1,10 @@
+
+In line number 5 of your output:
+The output should be:
+Fraction b(1, 3); // b = 1/3
+But your output is: 
+Fraction b(1, 3); // b = 1/3no fraction stored
+                            ^
+----------------------------|
+Professor's character ASCII code: hex(0), dec(0)
+un-matched character ASCII code: hex(6e), dec(110)

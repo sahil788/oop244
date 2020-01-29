@@ -1,0 +1,21 @@
+/************************
+*name:sahil lapsiwala
+id:132584160
+date:8/6/2017
+file:comments.txt
+email: snlapsiwala@myseneca.ca
+***************************/
+
+1)	std::cout << "Sku: ";
+			istr.getline(temp_sku, MAX_SKU_LEN, '\n');
+
+			if (istr.fail() == false) 
+			{
+				sku(temp_sku);
+			}
+this is the part of the read function that i took help from my friends and and took
+ ideas from internet as i was having problems in the output.
+
+2)total += *product_[i];// aidApp
+
+ask friends for this formula as problems in having total when loop re iterates

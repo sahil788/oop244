@@ -1,0 +1,21 @@
+/************************
+*name:sahil lapsiwala
+id:132584160
+date:1/8/2017
+file:reflect.txt
+email:snlapsiwala@myseneca.ca
+***************************/
+
+1. Yes class would still work if all the string have more string capaceity than needed.
+
+2. It is better to use standard string library that are already created.
+
+3. Yes when using the sict:String class in main function it should be set to safe empty state and
+ should be cleaned at the end. Yes we can add two string without worrying about loosing the data. 
+  If we used string it would be better to use add two string easily.
+
+**************************
+quiz 9
+**************************
+6)four
+ 

@@ -1,0 +1,52 @@
+**********************************
+name: sahil lapsiwala
+id : 132584160
+workshop :04
+email : snlapsiwala@myseneca.ca
+**********************************
+
+1) we return reference to fraction because we changed the value itself of the current fraction 
+    and the updated fraction should be returned so we pass the reference of the fraction.
+2) i have used this in many member function such as +operator,*operator, == operator,!= operator and +=operator.
+3)  temporary objects are 
+    while overloading + operator  .
+      (a + b).display();
+      (b + d).display();
+
+4) some of the lines of code are repeated in the various function.i could make the function of these lines of code and use it to make it simple.
+
+5)i have learned to use "this" for stating the current class and to overload the operators. 
+
+*************************************
+quiz 5 reflection
+*************************************
+#include <iostream>
+using namespace std;
+class OOP244 {
+    int noOfStudents;
+public:
+    OOP244() : noOfStudents(0) { display('A'); }
+    OOP244(int n) : noOfStudents(n) { display('B'); }
+    ~OOP244() { display('~'); }
+    void operator+=(const OOP244& rhs) {
+        noOfStudents += rhs.noOfStudents;
+    }
+    void display(char c) const {
+        cout << c << ':' << noOfStudents << endl;
+    }
+};
+int main() {
+    OOP244 ab(7), cd;
+    cd = OOP244(5);
+    cd += ab;
+    cout << "Bye" << endl;}
+
+output B : 7 
+       A : 0
+       B : 5
+       ~ : 5
+       bye
+       ~ : 12
+       ~ :  7
+
+missed the numbers beside the letters.
